@@ -1,37 +1,41 @@
 /*Ejercicio 2: El programa pedirá al usuario el valor del primer número a partir del cual 
 comenzará la impresión; y pedirá también cuántos úmeros ha de imprimir.*/
 #include  <stdio.h>
+ 
+/*
+int numero1=10;//numero por el que se empieza
+int numero2=5;//numero de repeticiones
+*/ 
+
+int numero1=0;//numero por el que se empieza
+int numero2=0;//numero de repeticiones
+int numero3=0;//para el cuadrado
 
 int main ()
 {
     
- 
-    int numero1;
-    int numero2;
-    
     printf("Da un numero para el valor a comenzar \n");
-    scanf("%d",numero1); 
+      scanf("%i",& numero1); 
+
     printf("Da un numero para el numero de impresiones\n");
-    scanf("%d",numero2); 
-    printf(numero1);
+      scanf("%i", & numero2); 
+
+
+    printf("%i",numero1);
  
-    printf(numero2);
-
-    /*
-
-   int array[a];
-   for (int i = 0; i < a; ++i)
-   {
-      array[i] = i + 1;
-   }
-   for (int i = 0; i < a; ++i)
-   {
-      printf("%d, ", i + 1);
-   }
-   return array;
+    printf("%i",numero2);
 
 
 
-*/
+      for ( int j = 0; j < numero2; j++)
+      { 
+         numero3 = numero1 * numero1; 
+         printf("%i     %i     \n",numero1,numero3);
+         numero1 = numero1 +1 ;
+
+
+
+      }
+   
    return 0;
 }
