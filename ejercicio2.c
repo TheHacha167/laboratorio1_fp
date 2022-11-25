@@ -1,5 +1,5 @@
 /*Ejercicio 2: El programa pedirá al usuario el valor del primer número a partir del cual 
-comenzará la impresión; y pedirá también cuántos úmeros ha de imprimir.*/
+comenzará la impresión; y pedirá también cuántos números ha de imprimir.*/
 #include  <stdio.h>
  
 /*

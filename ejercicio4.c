@@ -1,6 +1,5 @@
 /*Ejercicio 4: Determina si es un carácter numérico o un carácter alfabético o un espacio, e imprimir por pantalla cada cuenta según el tipo.*/
 #include <stdio.h>
-#include <string.h>
 
 /*No se admiten carácteres especiales ni letras con tíldes.*/
 
