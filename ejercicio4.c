@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <string.h>
 
+/*No se admiten carácteres especiales ni letras con tíldes.*/
+
     char s[1000]; 
     int i,letras=0,numeros=0,espacio=0; 
     
@@ -24,9 +26,9 @@ int main()
 }
  	
      
-printf("letras = %c\n",letras);
-printf("Numeros = %c\n",numeros);
-printf("Espacios = %c\n", espacio);
+printf("letras = %i\n",letras);
+printf("Numeros = %i\n",numeros);
+printf("Espacios = %i\n", espacio);
 
 
 return 0;
