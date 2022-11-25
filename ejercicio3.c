@@ -1,8 +1,39 @@
-/*Ejercicio 3: Sumar determinado número de elementos de una progresión aritmética*/
-#include <stdio.h>
+/*Ejercicio 3: 
 
-int main (int argc,char **argv)
+
+*/
+#include  <stdio.h>
+ 
+/*
+int n1=0;//primer elemento
+int n2=0;//numero de elementos 
+int n3=0;//razon
+*/ 
+int n1=1;//primer elemento
+int n2=5;//numero de elementos 
+int n3=2;//razon
+int n4=0;//variable almacenar 
+
+int main ()
 {
-   printf("Hola mundo\n");
+    
+    printf("Da un numero para el primer elemento \n");
+      scanf("%i",& n1); 
+
+    printf("Da un numero para el numero de elementos\n");
+      scanf("%i", & n2); 
+
+   printf("Da un numero para el numero de impresiones\n");
+      scanf("%i", & n3); 
+
+   
+
+      for ( int j = 0; j < n2; ++j)
+      { 
+         n4 = n1 + n2;
+         n4= n1;
+
+      }
+   n4 = n4 + n1:
    return 0;
 }

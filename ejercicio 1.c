@@ -1,7 +1,7 @@
 /*Ejercicio 1: Imprimir texto escrito por teclado*/
 #include <stdio.h>
 
- char cadena[20]; // aquí se almacena la cadena de caracteres para luego jacer el print
+ char cadena[20]; // aquí se almacena la cadena de caracteres para luego hacer el print
  
 int main(){
     
