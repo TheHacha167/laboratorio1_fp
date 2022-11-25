@@ -5,9 +5,9 @@
 #include  <stdio.h>
  
 
-int n1=5;//primer elemento
-int n2=4;//numero de elementos 
-int n3=7;//razon
+int n1=0;//primer elemento
+int n2=0;//numero de elementos 
+int n3=0;//razon
 int n4=0;//variable almacenar 
 int n5=0;//variable almacenar 
 int n6=0;//variable almacenar 
