@@ -1,5 +1,5 @@
-/*Ejercicio 2: El programa pedirá al usuario el valor del primer número a partir del cual 
-comenzará la impresión; y pedirá también cuántos números ha de imprimir.*/
+/*Ejercicio 2: El programa pedira al usuario el valor del primer numero a partir del cual 
+comenzara la impresion; y pedira tambien cuantos numeros ha de imprimir.*/
 #include  <stdio.h>
  
 /*
@@ -31,6 +31,6 @@ int main ()
 
 
       }
-   
+   //uso un bucle for para que hasta que no se cumpla el numero de repeticiones pedidas no se pare y termine el programa
    return 0;
 }

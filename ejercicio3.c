@@ -35,6 +35,7 @@ for ( int i = 1; i < n2; ++i)
    n5 = 0;//restablecer la variable para no arrastrar fallos de calculo
   
 }
+   //uso un bucle for para que hasta que no se cumpla el numero de repeticiones pedidas no se pare y termine el programa
 
 printf("%i \n", n6+n1);//salida
    return 0;
